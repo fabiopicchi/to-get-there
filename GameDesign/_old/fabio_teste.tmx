@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="90" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiles-v4-1-tileset_final" tilewidth="32" tileheight="32">
+  <image source="../Arte/tiles-v4-1-tileset_final.png" width="1024" height="32"/>
+ </tileset>
+ <objectgroup name="Camada de Objetos 1" width="90" height="16">
+  <object x="1440" y="256" width="32" height="31"/>
+  <object x="1440" y="384" width="32" height="32"/>
+  <object x="1152" y="384" width="32" height="32"/>
+  <object x="1024" y="256" width="32" height="32"/>
+  <object x="1248" y="320" width="32" height="32"/>
+  <object x="32" y="448" width="32" height="32"/>
+  <object x="96" y="352" width="32" height="32"/>
+  <object x="192" y="352" width="32" height="32"/>
+  <object x="288" y="352" width="32" height="32"/>
+ </objectgroup>
+ <layer name="Camada de Tiles 1" width="90" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztlMEJwDAMxALef+es0DqOhIkFhX6C0D281n8i8aYS209hd9p+CrvT9lPYnbafwu60/RR2p+2nsDttP8VJZyS+Sn8nTnemXN2ZnRlmZ4bKnTP3uvv28eG/0jHcY3ZmeHVn+j5mfd3v9gYd+AEn
+  </data>
+ </layer>
+</map>

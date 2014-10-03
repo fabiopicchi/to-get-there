@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="90" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiles-v4-2-tileset_final" tilewidth="32" tileheight="32">
+  <image source="../Arte/tiles-v4-2-tileset_final.png" width="416" height="96"/>
+ </tileset>
+ <layer name="tiles" width="90" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJAEAIA0BncP9h3UAEC+H/DtKnCIkAgH/ldQEAWn6al9k3wK1chLkCuMUBRQ==
+  </data>
+ </layer>
+ <objectgroup name="objetos" width="90" height="16">
+  <object name="plataforma" type="plataforma" x="320" y="384" width="32" height="32">
+   <properties>
+    <property name="ativacao" value="0"/>
+    <property name="distancia" value="3"/>
+    <property name="id" value="1"/>
+    <property name="sentido" value="3"/>
+   </properties>
+  </object>
+  <object name="plataforma" type="plataforma" x="192" y="256" width="32" height="32">
+   <properties>
+    <property name="ativacao" value="0"/>
+    <property name="distancia" value="3"/>
+    <property name="id" value="2"/>
+    <property name="sentido" value="3"/>
+   </properties>
+  </object>
+  <object name="plataforma" type="plataforma" x="64" y="192" width="32" height="32">
+   <properties>
+    <property name="ativacao" value="0"/>
+    <property name="distancia" value="3"/>
+    <property name="id" value="3"/>
+    <property name="sentido" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
